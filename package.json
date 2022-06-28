@@ -4,7 +4,9 @@
   "description": "Tttyler's personal website",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o css/ --recursive"
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.sass css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
   },
   "repository": {
     "type": "git",
