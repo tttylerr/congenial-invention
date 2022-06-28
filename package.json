@@ -1,0 +1,23 @@
+{
+  "name": "congenial-invention",
+  "version": "0.0.2",
+  "description": "Tttyler's personal website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tttylerr/congenial-invention.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tttylerr/congenial-invention/issues"
+  },
+  "homepage": "https://github.com/tttylerr/congenial-invention#readme",
+  "dependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^7.0.1"
+  }
+}
