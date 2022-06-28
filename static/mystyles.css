@@ -392,10 +392,10 @@ table th {
 
 /* Bulma Elements */
 .box {
-  background-color: #ededed;
+  background-color: #121212;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(18, 18, 18, 0.1), 0 0px 0 1px rgba(18, 18, 18, 0.02);
-  color: #4a4a4a;
+  color: #121212;
   display: block;
   padding: 1.25rem; }
 
